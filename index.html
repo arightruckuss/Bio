@@ -1,377 +1,541 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Ajay Rucktooa</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume - v2.2.0
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.0.0/css/bootstrap.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="css/style.css" />
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+    <title>Document</title>
 </head>
+<body>  
 
-<body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav class="nav-menu">
-      <ul>
-        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#skills"><i class="bx bx-file-blank"></i> <span>Skills</span></a></li>
-        <li><a href="#projects"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
-        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Ajay Rucktooa</h1>
-      <p>I'm <span class="typed" data-typed-items="A Web Developer, A Software Developer, An App Developer"></span></p>
-      <div class="social-links">
-        <a href="https://twitter.com/home" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://www.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.skype.com/en/" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="https://www.linkedin.com/home" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
+  <nav class="navbar navbar-light" id="navBar">
+    <div class="container-fluid">
+      <img src="images/favicon_io/favicon.ico" id="favicon" alt="Favicon Button" title="Favicon Button"/><a class="navbar-brand" id="navTitle">COMPANY DIRECTORY</a>
     </div>
-  </section><!-- End Hero -->
+  </nav>
 
-  <main id="main">
+      <!--Search Lists-->
+      <div>
+      <input class="form-control" id="myInput" type="text" placeholder="Personnel Search...">
+      <img data-bs-toggle="modal" data-bs-target="#newPersonnelModal" src="images/newButton.png" id="plusPersonnsel" alt="plusPersonnsel" title="plusPersonnsel"/><!--<span id="plusPersonnsel">+</span>-->
+    </div>
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Thank you for taking the time to view my profile.
-            <br>
-            In the past I have had a background of success in a variety of challenging and self-motivating roles. 
-            <br>
-            My interest and passion for coding evolved during my leisure time. Having developed this interest I decided to pursue a career in coding which I find much more fulfilling and rewarding.
-            <br>
-            Being a very friendly person, who has a lot of time for others, I look forward to working with like minded professionals who have a similar passion.
-            
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/AR021.jpg" class="img-fluid  mePic" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Full Stack Developer.</h3>
-            <p class="font-italic">
-              Develop both client softeware at the front end and server software at the back end, programming browsers, the server and databases. Mastering skills not limited to HTML and CSS and popular stacks.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> https://rucktooa.co.uk/MyResume/index.html</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>GitHub:</strong> https://github.com/arightruckuss</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> rucktooa@yahoo.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 07810202028</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Lisburn, UK</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
+    <div class="jumbotron" id="searchHolder">
+      <div class="d-flex justify-content-center" id="dropdownSearches">
+        <form class="d-flex" id="myLocationDropdown">
+          <span>
+          <select class="form-select" aria-label="Default select example" id="locationSearch">
+            <option value="location">Location...</option>
+          </select>
+        </span>
+        <span class="d-flex" id="myDepartmentDropdown">
+          <select class="form-select" aria-label="Default select example" id="departmentSearch">
+            <option value="department">Department...</option>
+          </select>
+          </span>
+        </form>
       </div>
-    </section><!-- End About Section -->
+      <br>
 
-     <!--Projects-->
-     <section id="projects" class="services">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Recent Projects</h2>
-          <p></p>
-        </div>
-
-        <div class="row d-flex justify-content-center">
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
-            <h4><a href="">Gazetteer</a></h4>
-            <a href="https://rucktooa.co.uk/Gazetteer/Index.html">
-            <img src="assets/img/gazetteer.png" id="gazetteerIcon" class="testimonial-img" alt="Gazetteer"></a>
-              <p>A fast and responsive application which displays geographical information for various countries, including weather, news, exchange rate, even up to the minute coronavirus data.
-                <br><br>
-                Deployment of the open source Leaflet Library to display maps and overlay  data utilizing the wide range of functionality Leaflet has to offer including making use its GeoJSON feature.
-                <br><br>
-                Making extensive use of third party API’s and AJAX to pull  data through PHP curl routines.
-                 </p> 
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue">
-            <h4><a href="">Company Directory</a></h4>
-            <a href="https://rucktooa.co.uk/companydirectory/index.html">
-            <img src="assets/img/cdIcon.png" id="cdIcon" class="testimonial-img" alt="Company Directory"></a>
-            <p>A web application used to store and manage a company personnel directory on a database.
-                <br><br>
-                The directory is stored in a MySQL database and managed through the use of AJAX with PHP routines and CRUD functionality.
-                <br><br>
-                The data is presented in a directory that allows for stright searching of staff, departments and locations by single or multiple criteria.
-                <br><br>
-                The prototype and development was tested locally on my PC before it was promoted to the live environment.
-                </p>
-            </div>
-          </div>
-
-        </div>
-
+      <!--Table Data-->
+      <div id="personnelTable">
+        <table class="table table-bordered sticky">
+          <thead class="table-primary">
+            <tr>
+              <th id="selectLocationList">Personnel Search</th>
+            </tr>
+          </thead>
+          <tbody id="personnelTableData" class="table-light">
+          </tbody>
+        </table>
       </div>
-    </section>
 
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>Computer coding is the process of writing and editing computer “codes,” which are the instructions all computers use to function. The code is what tells your computer what to do and it is a highly efficient language that computer programmers and other technology professionals use to create computer programs and systems including apps and websites. </p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-             <span class="skill">HTML<img src="assets/img/html5Icon.png" class="val langIcon" alt="HTML 5 Icon"></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS<img src="assets/img/css3Icon.svg" class="val langIcon" alt="HTML 5 Icon"></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript<img src="assets/img/jsIcon.png" class="val langIcon" alt="HTML 5 Icon"></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">PHP<img src="assets/img/phpIcon.png" id="phpIcon" class="val langIcon" alt="HTML 5 Icon"></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Python<img src="assets/img/pythonIcon.png" class="val langIcon" alt="HTML 5 Icon"></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MySQL<img src="assets/img/mysqlIcon.png" class="val langIcon" alt="HTML 5 Icon"></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Java<img src="assets/img/javaIcon.png" class="val langIcon" alt="HTML 5 Icon"></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">C#<img src="assets/img/cIcon.png" class="val langIcon" alt="HTML 5 Icon"></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <!--<div class="section-title">
-          <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>-->
-
-        <div class="row">
-          <div class="col-lg-6">
-
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Codeacademy</h4>
-              <h5>Present</h5>
-              <p><em>Courses completed:</em></p>
-              <ul>
-                <li>Web Development</li>
-                <li>HTML, CSS & Javascript</li>
-                <li>Python</li>
-                <li>PHP</li>
-                <li>Java</li>
-                <li>C#</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Certificate in Mortgage Advice and Practice (CeMAP) Level 3</h4>
-              <h5>2016 - Present</h5>
-              <p><em>Freedom Finance, Manchester, UK</em></p>
-              <ul>
-                <li>Awarded by The London Institute of Banking & Finance, CeMAP is registered with Ofqual in the Regulated Qualifications Framework and meets the FCA's examination standards for providing advice on mortgage products</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>98-383 - Introduction to Programming</h4>
-              <h5>2020</h5>
-              <p><em>Mircosoft Exam</em></p>
-              <p>Recognize and write syntactically correct HTML and CSS, structure data using HTML elements, and create and apply styles using CSS</p>
-            </div>
-            <div class="resume-item">
-              <h4>BA (Hons) Music Tech &amp; Management </h4>
-              <h5>2002 - 2005</h5>
-              <p><em>Staffordshire University, Stafford</em></p>
-              <p> Studio recording, production and engineering skills alongside business operations, commercial law and regulation, economics, financial literacy, global business and marketing</p>
-            </div>
-            <div class="resume-item">
-              <h4>GNQV Advanced IT</h4>
-              <h5>1996 - 1998</h5>
-              <p><em>Stoke-on-Trent College, Stoke-on-Trent</em></p>
-              <p> Skills and experience developing information technology systems, business and systems analysis, database development, software design, communications and networks, information flow and data handling</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     
 
-     <!-- ======= Contact Section ======= -->
-     <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>Lisburn, Northern Ireland</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>rucktooa@yahoo.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>07810202028</p>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
+      <div id="locationTable">
+        <table class="table table-bordered sticky">
+          <thead class="table-primary">
+            <tr>
+              <th id="selectLocationList">Personnel By Location</th>
+            </tr>
+          </thead>
+          <tbody id="locationTableData" class="table-light">
+          </tbody>
+        </table>
       </div>
-    </section><!-- End Contact Section -->
-  </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Ajay Rucktooa</h3>
+      <div id="departmentTable">
+        <table class="table table-bordered sticky">
+          <thead class="table-primary">
+            <tr>
+              <th>Personnel By Department</th>
+            </tr>
+          </thead>
+          <tbody id="departmentTableData" class="table-light">
+          </tbody>
+        </table>
+      </div>
     </div>
-  </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
-  <div id="preloader"></div>
+    <!--Location List-->
+    <div class="jumbotron" id="locationHolder">
+      <br>
+        <h1 class="text-center">Locations</h1>
+        <button type="button" class="btn btn-success d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal" data-bs-target="#newLocationModal" id="newLocationBtn">New</button>
+        <div class="d-grid gap-2 col-6 mx-auto"><span id="locationList" ></span>
+      </div>
+  </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+    <!-- location Modal -->
+    <div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="locationTitle">Location</h5>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Location Name</label>
+              <input type="email" class="form-control" id="editLocationName" placeholder="Location Name" disabled="disabled">
+            <div id="locDeptListHolder">
+              <br>
+              <label for="exampleFormControlInput1" class="form-label">Departments</label>
+              <ul class="list-group list-group-flush" id="locDeptList">
+              </ul>
+              </div>
+           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" id="editLocationBtn">Edit</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#editLocationCheck" id="editLocationCheckBtn">Save</button>
+            <button type="button" class="btn btn-secondary locationClose" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#deleteLocationCheck" id="deleteLocationCheckBtn">Delete</button>
+            <button type="button" class="btn btn-secondary" id="deleteLocUnableBtn">Delete</button>
+            <div class="alert alert-danger collapse" id="deleteLocUnableBox">
+              <strong>Cannot delete! </strong>A department is present in this Location.
+              <a id="closeLocUnableBox" href="#" class="close">&times;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+      <!-- Confirm Location Edit  -->
+      <div class="modal fade" id="editLocationCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Confirm Edit?</h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" id="saveEditLocationBtn">Yes</button>
+              <button type="button" class="btn btn-secondary locationClose" data-bs-dismiss="modal" id="closeDeleteBtn">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- Confirm Location delete  -->
+    <div class="modal fade" id="deleteLocationCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Are You Sure You Want To Delete?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="deleteLocationBtn">Yes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeDeleteBtn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-danger collapse" id="deleteLocSuccessBox">
+      <strong>Success!  </strong>Location deleted
+    </div>
+
+    <!-- New Location Modal -->
+    <div class="modal fade" id="newLocationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">New Location</h5>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Location Name</label>
+              <input type="email" class="form-control" id="newLocationName" placeholder="Location Name">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#newLocationCheck" id="#newLocationCheckBtn">Save Location</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Confirm New Location  -->
+    <div class="modal fade" id="newLocationCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Are You Sure You Want To Create New Location?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="saveNewLocationBtn">Yes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeLocationDeleteBtn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-success collapse" id="newLocSuccessBox">
+      <strong>Success!  </strong>Created a new location
+    </div>
+
+    <!-- New Location Check  -->
+    <div class="modal fade" id="createCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Create New Location?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" id="saveNewLocationBtn">Yes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeLocationDeleteBtn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Department List-->
+    <div class="jumbotron" id="departmentHolder">
+      <br>
+        <h2 class="text-center">Departments</h2>
+        <button type="button" class="btn btn-success d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal" data-bs-target="#newDepartmentModal" id="newDepartmentBtn">New</button>
+        <div class="d-grid gap-2 col-6 mx-auto"><span id="departmentList" ></span>
+        </div>
+    </div>
+
+    <!-- Department Modal -->
+    <div class="modal fade" id="departmentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="departmentTitle">Department</h5>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Department Name</label>
+              <input type="email" class="form-control" disabled="disabled" id="selectedDepartmentName" placeholder="Department Name">
+            </div>
+            <div id="deptLocListHolder">
+              <label for="exampleFormControlInput1" class="form-label">Location</label>
+              <ul class="list-group list-group-flush" id="deptLocList">
+              </ul>
+              </div>
+              <span id="newDeptLocHolder">
+                <label for="exampleFormControlInput1" class="form-label">Location</label>
+                <select class="form-select" aria-label="Default select example" id="newDeptLoc">
+                </select>
+              </span>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#deleteDepartmentCheck" id="deleteDeptCheckBtn">Delete</button>
+            <button type="button" class="btn btn-success" id="editDepartmentBtn">Edit</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#editDepartmentCheck" id="editDepartmentCheckBtn">Save</button>
+            <button type="button" class="btn btn-secondary" id="deleteDeptUnableBtn">Delete</button>
+            <div class="alert alert-danger collapse" id="deleteDeptUnableBox">
+              <strong>Cannot delete! </strong>Personnel are present in this department.
+              <a id="closeDeptUnableBox" href="#" class="close">&times;</a>
+            </div>
+            <button type="button" class="btn btn-secondary editDepartmentCloseBtn" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Confirm Department Edit  -->
+    <div class="modal fade" id="editDepartmentCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Confirm Edit?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="saveEditDepartmentBtn">Yes</button>
+            <button type="button" class="btn btn-secondary editDepartmentCloseBtn" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-success collapse" id="editDeptSuccessBox">
+      <strong>Success!  </strong>Department edited
+    </div>
+
+    <!-- Delete Department -->
+    <div class="modal fade" id="deleteDepartmentCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Are You Sure You Want To Delete?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="deleteDepartmentBtn">Delete</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeDepartmentDeleteBtn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-danger collapse" id="deleteDeptSuccessBox">
+      <strong>Success!  </strong>Department deleted
+    </div>
+
+    <!-- New Department Modal -->
+    <div class="modal fade" id="newDepartmentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">New Department</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Department Name</label>
+              <input type="email" class="form-control" id="newDepartmentName" placeholder="New Department Name">
+            </div>
+            <select class="form-select" aria-label="Default select example" id="newDepartmentLocation">
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#createDepartmentCheck">Save Department</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-success collapse" id="newDeptSuccessBox">
+      <strong>Success!  </strong>Created a new Department
+    </div>
+
+    <!-- New Department Check  -->
+    <div class="modal fade" id="createDepartmentCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Create New Department?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="saveNewDepartmentBtn">Yes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closeDeleteBtn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Personnel List-->
+    <div class="jumbotron" id="personnelHolder">
+      <br>
+        <h1 class="text-center" id="personnelTitle">Personnel</h1>
+        <div class="d-grid gap-2 col-6 mx-auto"><span id="personnelList" ></span>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#newPersonnelModal" id="newPersonnelBtn">New</button>
+        </div>
+      </div>
+
+      <!-- Delete Personnel-->
+      <div class="modal fade" id="deletePersonnelCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Are You Sure You Want To Delete?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="deletePersonnelBtn">Delete</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="closePersonnelDeleteBtn">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Personnel Modal-->
+    <div class="modal fade" id="personnelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="selectedPersonnelTitle">Personnel</h5>
+          </div>
+          <div class="modal-body">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                <input type="text" class="form-control" disabled="disabled" id="firstName" placeholder="First Name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                <input type="text" class="form-control" disabled="disabled" id="lastName" placeholder="Last Name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Job Title</label>
+                <input type="text" class="form-control" disabled="disabled" id="jobTitle" placeholder="Job Title">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="text" class="form-control" disabled="disabled" id="email" placeholder="Email">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Department</label>
+                <div id="personelDepartmentBox">
+                  <input type="text"class="form-control"  disabled="disabled" id="personelDepartmentName" placeholder="Department Name">
+                </div>
+                <div id="editPersonelDepartmentBox">
+                  <select class="form-select" aria-label="Default select example" id="editDepartmentSearch">
+                  </select>
+                </div>
+              </div>
+            
+              <!--<div class="mb-3">
+                  <div id="personelLocationBox">
+                    <input type="text" class="form-control" disabled="disabled" id="personelLocationName" placeholder="Location Name">
+                </div>
+                <div id="editPersonelLocationBox">
+                  <select class="form-select" aria-label="Default select example" id="editLocationSearch">
+                    <option>Location..</option>
+                  </select>
+                </div>
+              </div>-->
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" id="editPersonnelBtn">Edit</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editPersonnelCheck" id="editPersonnelCheckBtn">Save</button>
+            <button type="button" class="btn btn-secondary editPersonnelCloseBtn" data-bs-dismiss="modal" id="editPersonnelCloseBtn">Close</button>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deletePersonnelCheck" id="deletePersonnelCheckBtn">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Confirm Personnel Edit  -->
+    <div class="modal fade" id="editPersonnelCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Confirm Edit?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"  id="saveEditPersonnelBtn">Yes</button>
+            <button type="button" class="btn btn-secondary editPersonnelCloseBtn" data-bs-dismiss="modal" id="closeDeleteBtn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-success collapse" id="editPersonnelSuccessBox">
+      <strong>Success!  </strong>Personnel edited
+    </div>
+
+    <!-- Delete Personnel Check  -->
+    <div class="modal fade" id="deletePersonnelCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Confirm Delete?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"  id="deletePersonnelBtn">Yes</button>
+            <button type="button" class="btn btn-secondary editPersonnelCloseBtn" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-danger collapse" id="deletePersonnelSuccessBox">
+      <strong>Success!  </strong>Personnel deleted
+    </div>
+
+    <!-- New Personnel Modal -->
+    <div class="modal fade" id="newPersonnelModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">New Personnel</h5>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="newFirstName" name="newFirstName" placeholder="First Name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="newLastName" name="newLastName"  placeholder="Last Name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Job Title</label>
+              <input type="text" class="form-control"id="newJobTitle" name="newJobTitle" placeholder="Job Title">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="text" class="form-control" id="newEmail" name="newEmail" placeholder="Email">
+            </div>
+            <label for="exampleFormControlInput1" class="form-label">Department</label>
+            <select class="form-select" aria-label="Default select example" id="newPersonneldepartment">
+            </select>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#createPersonnelCheck">Save Personnel</button>
+            <button type="button" class="btn btn-secondary editPersonnelCloseBtn" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- New Personnel Check  -->
+    <div class="modal fade" id="createPersonnelCheck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Confirm New Personnel?</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="saveNewPersonnelBtn">Yes</button>
+            <button type="button" class="btn btn-secondary editPersonnelCloseBtn" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-success collapse" id="newPersonnelSuccessBox">
+      <strong>Success!  </strong>Created a new Personnel
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light" style="background-color: #eee;">
+      <div class="container-fluid" id="bottomNavBar">
+        <button type="button" class="btn btn-info btn-sm" id="perFixedLink">Personnel</button>
+        <button type="button" class="btn btn-info btn-sm" id="deptFixedLink">Departments</button>
+        <button type="button" class="btn btn-info btn-sm" id="locFixedLink">Locations</button>
+      </div>
+    </nav>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.js"></script>    
+	<script src="bootstrap-5.0.0/js/bootstrap.js"></script>
+	<script src="bootstrap-5.0.0/js/bootstrap.bundle.js"></script>
+	<script src="js/script.js"></script>
+    
 </body>
-
 </html>
