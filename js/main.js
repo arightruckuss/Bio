@@ -4,6 +4,29 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+//Edit Department button
+
+  $('body').on('click','#sendMessage',function(){   
+    $name = $("#name").val();
+    $email = $("#email").val();
+    $subject = $("#subject").val();
+    $message = $("#message").val();
+  
+    $.ajax({
+      url: "webform.php",
+      type: 'POST',
+      dataType: 'json',
+      data: {
+        name: $name,
+        email: $email,
+        message: $message,
+      },
+      success: function(result) {
+          if (result.status.name == "ok") {
+            console.log('ok!');
+      }}})//New location
+    })
+
 !(function($) {
   "use strict";
 
