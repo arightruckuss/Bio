@@ -6,26 +6,33 @@
 */
 //Edit Department button
 
-  $('body').on('click','#sendMessage',function(){   
-    $name = $("#name").val();
-    $email = $("#email").val();
-    $subject = $("#subject").val();
-    $message = $("#message").val();
+
+$('body').on('click','#sendMessage',function(){  
+  $name = $("#name").val();
+  $email = $("#email").val();
+  $subject = $("#subject").val();
+  $message = $("#message").val();
   
+  if($name != "" && $email != "" && $subject != "" && $message != "") {
+
+    $("#emailSent").css('display', 'block');
+
     $.ajax({
-      url: "webform.php",
+      url: "../sendInternet.php",
       type: 'POST',
       dataType: 'json',
       data: {
-        name: $name,
         email: $email,
+        name: $name,
+        subject: $subject,
         message: $message,
       },
       success: function(result) {
           if (result.status.name == "ok") {
             console.log('ok!');
       }}})//New location
-    })
+    }
+  })
 
 !(function($) {
   "use strict";
