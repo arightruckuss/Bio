@@ -8,8 +8,55 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 #skills {
-  margin-top: -80px;
+  margin-top: -60px;
+}
+
+#html5Icon {
+  width: 16%;
+}
+
+#css3Icon {
+  width: 10%;
+}
+
+#jsIcon {
+  width: 14%;
+}
+
+#mySQLIcon {
+  width: 13%;
+}
+
+#emailSent {
+  display: none;
+}
+
+#sendMessage {
+  display: block;
+}
+
+.skills-icons {
+  width: 75%;
+}
+
+.skillIcon{
+  width: 16%;
+  margin: 4%;
+}
+
+#linkedin {
+  width: 40px;
+  margin-top: -20px;
+}
+
+#messageSent {
+  display:none;
+}
+
+#github {
+  width: 500px;
 }
 
 #contact {
